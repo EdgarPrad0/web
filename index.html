@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folios Incrementales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <label for="numeroInput1">Folio de Vecindad:</label>
+            <input type="text" id="numeroInput1" />
+            <button onclick="incrementarNumero(1)">Vecindad + 1</button>
+            <p>Folio Consecutivo: <span id="numeroActual1">0</span></p>
+        </div>
+
+        <div>
+            <label for="numeroInput2">Folio de Identidad:</label>
+            <input type="text" id="numeroInput2" />
+            <button onclick="incrementarNumero(2)">Identidad + 1</button>
+            <p>Folio Consecutivo: <span id="numeroActual2">0</span></p>
+        </div>
+
+        <div>
+            <label for="numeroInput3">Ingrese un número:</label>
+            <input type="text" id="numeroInput3" />
+            <button onclick="incrementarNumero(3)">Incrementar en 1</button>
+            <p>Número mostrado: <span id="numeroActual3">0</span></p>
+        </div>
+
+        <div>
+            <label for="numeroInput4">Ingrese un número:</label>
+            <input type="text" id="numeroInput4" />
+            <button onclick="incrementarNumero(4)">Incrementar en 1</button>
+            <p>Número mostrado: <span id="numeroActual4">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
